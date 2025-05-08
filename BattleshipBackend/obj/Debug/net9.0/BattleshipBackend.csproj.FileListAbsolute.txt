@@ -35,3 +35,40 @@ C:\workspace\Training\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.pdb
 C:\workspace\Training\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.genruntimeconfig.cache
 C:\workspace\Training\BattleshipBackend\obj\Debug\net9.0\ref\BattleshipBackend.dll
 C:\workspace\Training\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.sourcelink.json
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\bin\Debug\net9.0\appsettings.Development.json
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\bin\Debug\net9.0\appsettings.json
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\bin\Debug\net9.0\BattleshipBackend.staticwebassets.endpoints.json
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\bin\Debug\net9.0\BattleshipBackend.exe
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\bin\Debug\net9.0\BattleshipBackend.deps.json
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\bin\Debug\net9.0\BattleshipBackend.runtimeconfig.json
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\bin\Debug\net9.0\BattleshipBackend.dll
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\bin\Debug\net9.0\BattleshipBackend.pdb
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.csproj.AssemblyReference.cache
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.AssemblyInfoInputs.cache
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.AssemblyInfo.cs
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.csproj.CoreCompileInputs.cache
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.sourcelink.json
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\scopedcss\bundle\BattleshipBackend.styles.css
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\staticwebassets.build.json
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\staticwebassets.development.json
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\staticwebassets\msbuild.BattleshipBackend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\staticwebassets\msbuild.BattleshipBackend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\staticwebassets\msbuild.build.BattleshipBackend.props
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.BattleshipBackend.props
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.BattleshipBackend.props
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\staticwebassets.pack.json
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\Battlesh.C8BB4CE4.Up2Date
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.dll
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\refint\BattleshipBackend.dll
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.pdb
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.genruntimeconfig.cache
+C:\CFG\BATTLESHIP UI\team-1-ui\BattleshipBackend\obj\Debug\net9.0\ref\BattleshipBackend.dll

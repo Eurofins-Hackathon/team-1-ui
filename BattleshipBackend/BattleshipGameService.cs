@@ -40,6 +40,10 @@ public class BattleshipGameService : IBattleshipGameService
         PlaceAiShips();
     }
 
+    /// <summary>
+    /// Initializes the game grid with empty cells.
+    /// </summary>
+    /// <param name="grid">The grid to initialize.</param>
     private void InitializeGrid(char[,] grid)
     {
         for (int i = 0; i < GridSize; i++)
@@ -51,6 +55,9 @@ public class BattleshipGameService : IBattleshipGameService
         }
     }
 
+    /// <summary>
+    /// Places AI ships randomly on the grid.
+    /// </summary>
     private void PlaceAiShips()
     {
         Random random = new Random();
@@ -75,6 +82,15 @@ public class BattleshipGameService : IBattleshipGameService
         }
     }
 
+    /// <summary>
+    /// Checks if a ship can be placed at the specified location.
+    /// </summary>
+    /// <param name="grid">The grid to check.</param>
+    /// <param name="x">The starting x-coordinate.</param>
+    /// <param name="y">The starting y-coordinate.</param>
+    /// <param name="length">The length of the ship.</param>
+    /// <param name="isHorizontal">Whether the ship is placed horizontally.</param>
+    /// <returns>True if the ship can be placed, otherwise false.</returns>
     private bool CanPlaceShip(char[,] grid, int x, int y, int length, bool isHorizontal)
     {
         for (int i = 0; i < length; i++)
@@ -90,6 +106,14 @@ public class BattleshipGameService : IBattleshipGameService
         return true;
     }
 
+    /// <summary>
+    /// Places a ship on the grid at the specified location.
+    /// </summary>
+    /// <param name="grid">The grid to place the ship on.</param>
+    /// <param name="x">The starting x-coordinate.</param>
+    /// <param name="y">The starting y-coordinate.</param>
+    /// <param name="length">The length of the ship.</param>
+    /// <param name="isHorizontal">Whether the ship is placed horizontally.</param>
     private void PlaceShipOnGrid(char[,] grid, int x, int y, int length, bool isHorizontal)
     {
         for (int i = 0; i < length; i++)
@@ -202,6 +226,13 @@ public class BattleshipGameService : IBattleshipGameService
         return (x, y, isHit, gameStatus);
     }
 
+    /// <summary>
+    /// Processes a move on the target grid.
+    /// </summary>
+    /// <param name="targetGrid">The grid to process the move on.</param>
+    /// <param name="x">The x-coordinate of the move.</param>
+    /// <param name="y">The y-coordinate of the move.</param>
+    /// <returns>True if the move is a hit, otherwise false.</returns>
     private bool ProcessMove(char[,] targetGrid, int x, int y)
     {
         if (x < 0 || x >= GridSize || y < 0 || y >= GridSize)
@@ -235,16 +266,27 @@ public class BattleshipGameService : IBattleshipGameService
         return false; // No-op for already targeted cells
     }
 
+    /// <summary>
+    /// Places a ship on the player's grid.
+    /// </summary>
+    /// <param name="x">The starting x-coordinate.</param>
+    /// <param name="y">The starting y-coordinate.</param>
+    /// <param name="length">The length of the ship.</param>
+    /// <param name="isHorizontal">Whether the ship is placed horizontally.</param>
+    /// <returns>True if the ship is placed successfully.</returns>
     public virtual bool PlaceShip(int x, int y, int length, bool isHorizontal)
     {
+        Console.WriteLine($"Attempting to place ship at ({x}, {y}) with length {length} {(isHorizontal ? "horizontally" : "vertically")}.");
         if (x < 0 || y < 0 || x >= GridSize || y >= GridSize)
         {
+            Console.WriteLine("Ship placement is out of bounds.");
             throw new ArgumentOutOfRangeException("Ship placement is out of bounds.");
         }
 
         if (!CanPlaceShip(_playerGrid, x, y, length, isHorizontal))
         {
-             throw new InvalidOperationException("Invalid ship placement. Ships overlap or are out of bounds.");
+            Console.WriteLine("Invalid ship placement. Ships overlap or are out of bounds.");
+            throw new InvalidOperationException("Invalid ship placement. Ships overlap or are out of bounds.");
         }
 
         PlaceShipOnGrid(_playerGrid, x, y, length, isHorizontal);

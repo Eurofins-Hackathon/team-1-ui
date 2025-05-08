@@ -1,53 +1,66 @@
-# Battleship Game
+# Battleship Game Documentation
 
 ## Overview
-This project is a Battleship game implementation consisting of a frontend built with Angular and a backend developed in .NET. The game allows players to place ships, make moves, and compete against an AI opponent.
+The Battleship Game project is a full-stack application that allows players to engage in a classic Battleship game against an AI opponent. The project is divided into a frontend built with Angular and a backend developed using .NET 9.0.
 
 ## Project Structure
 
 ### Frontend
 - **Framework**: Angular
-- **Location**: `battleship-frontend/`
+- **Directory**: `battleship-frontend/`
+- **Key Features**:
+  - Drag-and-drop ship placement.
+  - Real-time updates for moves and ship placement.
 - **Key Files**:
   - `src/app/app.component.html`: Main HTML structure for the game.
   - `src/app/battleship.service.ts`: Service handling game logic and API communication.
 
 ### Backend
 - **Framework**: .NET 9.0
-- **Location**: `BattleshipBackend/`
+- **Directory**: `BattleshipBackend/`
+- **Key Features**:
+  - API endpoints for game logic.
+  - Core game logic implementation.
 - **Key Files**:
-  - `BattleshipGameService.cs`: Core game logic.
-  - `Controllers/BattleshipController.cs`: API endpoints for the game.
+  - `BattleshipGameService.cs`: Contains the core game logic.
+  - `Controllers/BattleshipController.cs`: Defines API endpoints for the game.
 
 ### Tests
-- **Backend Tests**: Located in `BattleshipBackend.Tests/`.
+- **Backend Tests**:
+  - Directory: `BattleshipBackend.Tests/`
+  - Includes unit tests for backend logic and API endpoints.
+
+## Prerequisites
+- **Node.js**: Required for running the Angular frontend.
+- **.NET SDK**: Required for building and running the backend.
 
 ## How to Run
 
-### Prerequisites
-- **Node.js**: Required for the Angular frontend.
-- **.NET SDK**: Required for the backend.
+### Frontend
+1. Navigate to the `battleship-frontend/` directory.
+2. Run `npm install` to install dependencies.
+3. Run `ng serve` to start the development server.
+4. Access the game at `http://localhost:4200`.
 
-### Steps
-1. **Frontend**:
-   - Navigate to `battleship-frontend/`.
-   - Run `npm install` to install dependencies.
-   - Run `ng serve` to start the development server.
-   - Access the game at `http://localhost:4200`.
-
-2. **Backend**:
-   - Navigate to `BattleshipBackend/`.
-   - Run `dotnet build` to build the project.
-   - Run `dotnet run` to start the backend server.
-   - The API will be available at `http://localhost:5000`.
+### Backend
+1. Navigate to the `BattleshipBackend/` directory.
+2. Run `dotnet build` to build the project.
+3. Run `dotnet run` to start the backend server.
+4. The API will be available at `http://localhost:5000`.
 
 ## Features
-- Drag-and-drop ship placement.
-- Turn-based gameplay against an AI.
-- Real-time updates for ship placement and moves.
+- **Frontend**:
+  - Interactive UI for ship placement and gameplay.
+  - Real-time updates for moves and game state.
+- **Backend**:
+  - Turn-based gameplay logic.
+  - AI opponent logic.
+  - RESTful API for frontend communication.
 
 ## Contributing
-Feel free to fork this repository and submit pull requests. Ensure your code follows the project's coding standards.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Submit a pull request with a clear description of your changes.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the LICENSE file for details.
