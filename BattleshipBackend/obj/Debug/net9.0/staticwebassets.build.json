@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "lx3usbQYmwdy5A+jlGPIb9Yx8kTcTktzeFIC+mZ8DH4=",
+  "Source": "BattleshipBackend",
+  "BasePath": "_content/BattleshipBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
