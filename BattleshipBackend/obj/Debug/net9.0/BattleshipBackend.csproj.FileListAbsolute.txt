@@ -34,3 +34,4 @@ C:\workspace\Training\BattleshipBackend\obj\Debug\net9.0\refint\BattleshipBacken
 C:\workspace\Training\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.pdb
 C:\workspace\Training\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.genruntimeconfig.cache
 C:\workspace\Training\BattleshipBackend\obj\Debug\net9.0\ref\BattleshipBackend.dll
+C:\workspace\Training\BattleshipBackend\obj\Debug\net9.0\BattleshipBackend.sourcelink.json
